@@ -12,7 +12,7 @@ function Navbar() {
           src={MCSLogoWhite}
           alt="MCS Logo"
         />
-      </a>
+      </Link>
       <ul className="flex px-5">
         <li className="px-5 hover:text-zinc-200">
           <Link to="/">首页</Link>
