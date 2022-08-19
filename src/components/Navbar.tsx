@@ -5,7 +5,7 @@ import MCSLogoWhite from '../../assets/mcslogowhite.png';
 function Navbar() {
   return (
     <nav className="flex text-white font-misans tracking-tighter text-xl font-light items-center">
-      <a href="index.html">
+      <Link to="/">
         <img
           id="logopic"
           className="p-8 w-32 transition hover:scale-110 ease-out"
